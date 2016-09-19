@@ -1,14 +1,17 @@
-use 5.10.0;
-use strict;
+use 5.20.0;
 use warnings;
 
 package MadeUp::Book::Schema;
 
-# ABSTRACT: Short intro
+# ABSTRACT: ...
 # AUTHORITY
-our $VERSION = '0.0100';
+our $VERSION = '0.0001';
 
+sub schema_version { 1 }
 
+use base 'DBIx::Class::Sweeten::Schema';
+
+__PACKAGE__->load_namespaces;
 
 1;
 
