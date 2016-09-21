@@ -13,6 +13,7 @@ use experimental qw/postderef signatures/;
 __PACKAGE__->load_components(qw/
     Helper::Row::RelationshipDWIM
     InflateColumn::DateTime
+    Sweeten::Helper::Row
 /);
 
 sub default_result_namespace { 'MadeUp::Book::Schema::Result' }
