@@ -4,8 +4,8 @@ MadeUp::Book::Schema - ...
 
 <div>
     <p>
-    <img src="https://img.shields.io/badge/perl-unknown-blue.svg" alt="Requires Perl unknown" />
-    <a href="https://travis-ci.org//"><img src="https://api.travis-ci.org//.svg?branch=master" alt="Travis status" /></a>
+    <img src="https://img.shields.io/badge/perl-5.10+-blue.svg" alt="Requires Perl 5.10+" />
+    <a href="https://travis-ci.org/Csson/p5-MadeUp-Book-Schema"><img src="https://api.travis-ci.org/Csson/p5-MadeUp-Book-Schema.svg?branch=master" alt="Travis status" /></a>
     <a href="http://cpants.cpanauthors.org/release/CSSON/MadeUp-Book-Schema-0.0001"><img src="http://badgedepot.code301.com/badge/kwalitee/CSSON/MadeUp-Book-Schema/0.0001" alt="Distribution kwalitee" /></a>
     <a href="http://matrix.cpantesters.org/?dist=MadeUp-Book-Schema%200.0001"><img src="http://badgedepot.code301.com/badge/cpantesters/MadeUp-Book-Schema/0.0001" alt="CPAN Testers result" /></a>
     </p>
